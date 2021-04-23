@@ -1,0 +1,26 @@
+{
+  "name": "food_mess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "razorpay": "^2.0.6",
+    "request": "^2.88.2",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "curl": "^0.1.4",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
+  }
+}
