@@ -22,9 +22,7 @@ app.use(
 
 app.use(bodyParser.json())
 
-mongoose
-    .connect(
-        "mongodb+srv://ayush:ayushayush@cluster0.tqe1h.mongodb.net/food_mess?retryWrites=true&w=majority",
+mongoose.connect("MONGO_ATLAS_API_KEY_URL",
         { useUnifiedTopology: true, useNewUrlParser: true }
     )
     .then(() => {
